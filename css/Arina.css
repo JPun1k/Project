@@ -1,0 +1,141 @@
+* { 
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.cards{
+	margin: 2%;
+	background: #F5F5DC;
+	padding: 3% 0;
+}
+
+
+.cards__title{
+	font-weight: bold;
+	font-size: 4em;
+	text-align: center;
+}
+
+.cards__inner{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 4%;
+
+}
+.cards__items{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.cards__img{
+	width: 100%;
+	height: 45vh;
+	border-radius: 5%;
+}
+
+.cards__name{
+	margin-top: 3%;
+	margin-left: 3%;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 3%;
+}
+.cards__items_p1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cards__img_p1{
+	width: 55%;
+    height: 55%;
+	background-size: cover;
+}
+.cards__name_p1{
+	margin-top: 2%;
+	margin-left: 4%;
+	font-size: 1.5em;
+}
+.cards__name_p2{
+	margin-top: 3%;
+	font-size: 1.5em;
+
+}
+.cards__items_p2{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cards__img_p3{
+	width: 45%;
+    height: 55%;
+}
+.cards__title{
+	font-weight: bold;
+	font-size: 4em;
+	text-align: center;
+ 	background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 20s ease infinite;
+  animation: rainbow 20s ease infinite;
+    line-height: 1em;
+}
+
+@-webkit-keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+ 
+@keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+.leftimg {
+	float:left; 
+	margin: 1% 1.5% 0 0;
+}
+.p_p1{
+	text-indent: 2em;
+}
+h2{
+	text-align: center;
+}
+a {
+  color: #69421f; 
+  text-decoration: none;
+  transition: color 0.3s ease; 
+  text-align: center;
+}
+
+a:visited{
+	color: #57371b;
+	text-decoration: none;
+}
+a:hover {
+  color: #79e911; 
+  text-decoration: none; 
+}
+a:active{
+	color: rgb(255, 0, 0);
+	 text-decoration: none;
+}
+
+button{
+	background: hsl(28, 100%, 86%);
+	margin-top: 5%;
+	border-radius: 5em;
+}
