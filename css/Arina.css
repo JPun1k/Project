@@ -11,9 +11,9 @@
 }
 
 .cards{
-	margin: 2%;
+	margin: 2vw;
 	background: #F5F5DC;
-	padding: 3% 0;
+	padding: 3vh 0;
 }
 
 
@@ -140,3 +140,4 @@ button{
 	border-radius: 5em;
 
 }
+
