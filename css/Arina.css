@@ -5,7 +5,7 @@
 }
 
 .container{
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	justify-content: center;
 }
@@ -138,4 +138,5 @@ button{
 	background: hsl(28, 100%, 86%);
 	margin-top: 5%;
 	border-radius: 5em;
+
 }
