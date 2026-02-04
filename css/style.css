@@ -9,7 +9,7 @@
 	height: 15vh;
 	display: flex;
 	justify-content: center;
-	margin-top: 5%
+	
 }
 .cards__inner {
 	display: flex;
@@ -17,6 +17,7 @@
 	align-items: end;
 }
 h1.cards__title{
+	margin-top: 5%
 	font-size: 3em;
 }
 .card {
@@ -55,5 +56,6 @@ a {
 h1 {
 	
 }
+
 
 
