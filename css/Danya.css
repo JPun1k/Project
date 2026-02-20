@@ -15,9 +15,9 @@
 }
 .container{
 	width: 100%;
-	height: 2%;
+	height: 5%;
 	display: flex;
-	align-items: start;
+	align-items: end;
 	justify-content: center;
 	margin: 0 0 5% 0;
 }
@@ -29,7 +29,7 @@ h1.cards__title{
 }
 .cards__items{
 	width: 100%;
-	height: 80%;
+	height: 30%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -77,4 +77,5 @@ h1.cards__title{
 	height: 30em;
 
 }
+
 
