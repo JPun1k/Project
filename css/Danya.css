@@ -1,23 +1,24 @@
-*{
+{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 .card{
 	width: 100%;
-	min-height: 100vh;
+	height: 100vh;
 	background: #FFF5EE;
 }
 .card1{
 	width: 100%;
 	height: 300vh;
 	background: #FFF5EE;
+
 }
 .container{
 	width: 100%;
-	height: 5%;
+	height: 2%;
 	display: flex;
-	align-items: end;
+	align-items: start;
 	justify-content: center;
 	margin: 0 0 5% 0;
 }
@@ -29,9 +30,10 @@ h1.cards__title{
 }
 .cards__items{
 	width: 100%;
-	height: 30%;
+	height: 80%;
 	display: flex;
 	justify-content: space-between;
+	margin: 0 0 0 4%;
 }
 .cards__item {
 	width: 32%;
@@ -41,9 +43,9 @@ h1.cards__title{
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 .cards__img{
-	width: 100%;
+	width: 75%;
 	height: 20em;
-	border-radius: 15px;
+	border-radius: 20em;
 }
 .cards__name{
 	margin: 3%;
@@ -51,32 +53,19 @@ h1.cards__title{
 	display: flex;
 	align-self: start;
 }
-.cards__item2{
-		width: 100%;
-	height: 30%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 30% 5% 5% 5% ;
-	 line-height: 1.6;
-}
 .cards__item1{
 	width: 100%;
 	height: 90%;
 	display: flex;
-	align-self: end;
 	flex-direction: column;
-	justify-content: center;
-	padding: 0 5% 5% 5% ;
-	 line-height: 1.6;
+	align-items: center;
+	line-height: 1.6;
 
 }
 .cards__img1{
 	margin: 0 0 0 5%;
-	width: 90%;
+	
+	width: 40%;
 	height: 30em;
-
 }
-
-
 
